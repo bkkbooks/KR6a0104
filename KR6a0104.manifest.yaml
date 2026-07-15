@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0104/v1
 canonical_location: https://kanripo.org/bkk/KR6a0104/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說法印經
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0104_000.yaml, hash: 'sha256:fc46e4d4c87e8c7450d3ffb65f5ef1a45bad9588ee988795b87e7da58618b2d4'}
-  - {seq: 1, filename: KR6a0104_001.yaml, hash: 'sha256:b8b46e5a1870bfb16146ad8cf644d3c3fa511dd5ea684df6f575104bdb4cb106'}
+  - {seq: 1, filename: KR6a0104_001.yaml, hash: 'sha256:31777f2dffd87ae1c8cd0a137724b7ba8143a537fe6e13855518a168aee8c8e2'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6a0104_000.markers.yaml, hash: 'sha256:f1250a3fd8cd5b0040ba3c18f9d5425cd67c61c3504538cbbe44974245e361dd'}
-  - {seq: 1, role: markers, filename: assets/KR6a0104_001.markers.yaml, hash: 'sha256:36e42796a6a9a546b79f5b101607b4a00814536614cd885951fe47548262d4ee'}
+  - {seq: 1, role: markers, filename: assets/KR6a0104_001.markers.yaml, hash: 'sha256:243d896aa9b613e2820cc40c4a443f3980e62bd21635d775d33f2d703ce0384b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 佛說法印經
   type: juan
   level: 1
-hash: sha256:3de7ea7b9517d1e900d9afb4cf684aed2b598e3d50951c2d8a9ae763bedf8375
+hash: sha256:d8a14a6890a809a95afe595955c6a7ebdc1d5380431b89237882fd32e3281795
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
